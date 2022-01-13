@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trist\\source\\repos\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj": {}
+    "C:\\Users\\trist\\OneDrive\\Documents\\GitHub\\VeiligProgrameren-Examen\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trist\\source\\repos\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj": {
+    "C:\\Users\\trist\\OneDrive\\Documents\\GitHub\\VeiligProgrameren-Examen\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trist\\source\\repos\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj",
+        "projectUniqueName": "C:\\Users\\trist\\OneDrive\\Documents\\GitHub\\VeiligProgrameren-Examen\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj",
         "projectName": "VeiligProgameren_Tristan_Jurjens",
-        "projectPath": "C:\\Users\\trist\\source\\repos\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj",
+        "projectPath": "C:\\Users\\trist\\OneDrive\\Documents\\GitHub\\VeiligProgrameren-Examen\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens.csproj",
         "packagesPath": "C:\\Users\\trist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trist\\source\\repos\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\obj\\",
+        "outputPath": "C:\\Users\\trist\\OneDrive\\Documents\\GitHub\\VeiligProgrameren-Examen\\VeiligProgameren_Tristan_Jurjens\\VeiligProgameren_Tristan_Jurjens\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
